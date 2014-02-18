@@ -13,4 +13,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "SM_FBKit.h"
+    #import "SM_TWKit.h"
+    #import "SM_LocationKit.h"
 #endif

@@ -21,6 +21,22 @@
 		9308D13518B3A88500E7D328 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D11718B3A88500E7D328 /* UIKit.framework */; };
 		9308D13D18B3A88500E7D328 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9308D13B18B3A88500E7D328 /* InfoPlist.strings */; };
 		9308D13F18B3A88500E7D328 /* SMSocialConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308D13E18B3A88500E7D328 /* SMSocialConnectorTests.m */; };
+		9308D15018B3A8D000E7D328 /* SM_FBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308D14918B3A8D000E7D328 /* SM_FBKit.m */; };
+		9308D15218B3A8D000E7D328 /* SM_LocationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308D14D18B3A8D000E7D328 /* SM_LocationKit.m */; };
+		9308D15318B3A8D000E7D328 /* SM_TWKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308D14F18B3A8D000E7D328 /* SM_TWKit.m */; };
+		9308D15518B3AB7400E7D328 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D15418B3AB7400E7D328 /* FacebookSDK.framework */; };
+		9308D17718B3B0B100E7D328 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D16C18B3B0B100E7D328 /* AdSupport.framework */; };
+		9308D17818B3B0B100E7D328 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D16D18B3B0B100E7D328 /* Security.framework */; };
+		9308D17918B3B0B100E7D328 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D16E18B3B0B100E7D328 /* Social.framework */; };
+		9308D17A18B3B0B100E7D328 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D16F18B3B0B100E7D328 /* Accounts.framework */; };
+		9308D17B18B3B0B100E7D328 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D17018B3B0B100E7D328 /* MapKit.framework */; };
+		9308D17C18B3B0B100E7D328 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D17118B3B0B100E7D328 /* CoreLocation.framework */; };
+		9308D17D18B3B0B100E7D328 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D17218B3B0B100E7D328 /* QuartzCore.framework */; };
+		9308D17E18B3B0B100E7D328 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D17318B3B0B100E7D328 /* CoreData.framework */; };
+		9308D17F18B3B0B100E7D328 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D17418B3B0B100E7D328 /* SystemConfiguration.framework */; };
+		9308D18018B3B0B100E7D328 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D17518B3B0B100E7D328 /* MobileCoreServices.framework */; };
+		9308D18118B3B0B100E7D328 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9308D17618B3B0B100E7D328 /* CFNetwork.framework */; };
+		9308D18418B3B2CB00E7D328 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9308D18318B3B2CB00E7D328 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,26 @@
 		9308D13A18B3A88500E7D328 /* SMSocialConnectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMSocialConnectorTests-Info.plist"; sourceTree = "<group>"; };
 		9308D13C18B3A88500E7D328 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9308D13E18B3A88500E7D328 /* SMSocialConnectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSocialConnectorTests.m; sourceTree = "<group>"; };
+		9308D14818B3A8D000E7D328 /* SM_FBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM_FBKit.h; sourceTree = "<group>"; };
+		9308D14918B3A8D000E7D328 /* SM_FBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SM_FBKit.m; sourceTree = "<group>"; };
+		9308D14C18B3A8D000E7D328 /* SM_LocationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM_LocationKit.h; sourceTree = "<group>"; };
+		9308D14D18B3A8D000E7D328 /* SM_LocationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SM_LocationKit.m; sourceTree = "<group>"; };
+		9308D14E18B3A8D000E7D328 /* SM_TWKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM_TWKit.h; sourceTree = "<group>"; };
+		9308D14F18B3A8D000E7D328 /* SM_TWKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SM_TWKit.m; sourceTree = "<group>"; };
+		9308D15418B3AB7400E7D328 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		9308D16C18B3B0B100E7D328 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9308D16D18B3B0B100E7D328 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9308D16E18B3B0B100E7D328 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9308D16F18B3B0B100E7D328 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		9308D17018B3B0B100E7D328 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9308D17118B3B0B100E7D328 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9308D17218B3B0B100E7D328 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9308D17318B3B0B100E7D328 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9308D17418B3B0B100E7D328 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9308D17518B3B0B100E7D328 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9308D17618B3B0B100E7D328 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9308D18218B3B2CB00E7D328 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9308D18318B3B2CB00E7D328 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +97,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9308D11618B3A88500E7D328 /* CoreGraphics.framework in Frameworks */,
+				9308D18018B3B0B100E7D328 /* MobileCoreServices.framework in Frameworks */,
+				9308D17E18B3B0B100E7D328 /* CoreData.framework in Frameworks */,
+				9308D17718B3B0B100E7D328 /* AdSupport.framework in Frameworks */,
+				9308D17918B3B0B100E7D328 /* Social.framework in Frameworks */,
+				9308D17D18B3B0B100E7D328 /* QuartzCore.framework in Frameworks */,
+				9308D17F18B3B0B100E7D328 /* SystemConfiguration.framework in Frameworks */,
+				9308D15518B3AB7400E7D328 /* FacebookSDK.framework in Frameworks */,
+				9308D17B18B3B0B100E7D328 /* MapKit.framework in Frameworks */,
+				9308D18118B3B0B100E7D328 /* CFNetwork.framework in Frameworks */,
 				9308D11818B3A88500E7D328 /* UIKit.framework in Frameworks */,
+				9308D17C18B3B0B100E7D328 /* CoreLocation.framework in Frameworks */,
+				9308D17818B3B0B100E7D328 /* Security.framework in Frameworks */,
+				9308D17A18B3B0B100E7D328 /* Accounts.framework in Frameworks */,
 				9308D11418B3A88500E7D328 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +130,18 @@
 		9308D10718B3A88500E7D328 = {
 			isa = PBXGroup;
 			children = (
+				9308D16C18B3B0B100E7D328 /* AdSupport.framework */,
+				9308D16D18B3B0B100E7D328 /* Security.framework */,
+				9308D16E18B3B0B100E7D328 /* Social.framework */,
+				9308D16F18B3B0B100E7D328 /* Accounts.framework */,
+				9308D17018B3B0B100E7D328 /* MapKit.framework */,
+				9308D17118B3B0B100E7D328 /* CoreLocation.framework */,
+				9308D17218B3B0B100E7D328 /* QuartzCore.framework */,
+				9308D17318B3B0B100E7D328 /* CoreData.framework */,
+				9308D17418B3B0B100E7D328 /* SystemConfiguration.framework */,
+				9308D17518B3B0B100E7D328 /* MobileCoreServices.framework */,
+				9308D17618B3B0B100E7D328 /* CFNetwork.framework */,
+				9308D15418B3AB7400E7D328 /* FacebookSDK.framework */,
 				9308D11918B3A88500E7D328 /* SMSocialConnector */,
 				9308D13818B3A88500E7D328 /* SMSocialConnectorTests */,
 				9308D11218B3A88500E7D328 /* Frameworks */,
@@ -112,6 +172,12 @@
 		9308D11918B3A88500E7D328 /* SMSocialConnector */ = {
 			isa = PBXGroup;
 			children = (
+				9308D14818B3A8D000E7D328 /* SM_FBKit.h */,
+				9308D14918B3A8D000E7D328 /* SM_FBKit.m */,
+				9308D14C18B3A8D000E7D328 /* SM_LocationKit.h */,
+				9308D14D18B3A8D000E7D328 /* SM_LocationKit.m */,
+				9308D14E18B3A8D000E7D328 /* SM_TWKit.h */,
+				9308D14F18B3A8D000E7D328 /* SM_TWKit.m */,
 				9308D12218B3A88500E7D328 /* AppDelegate.h */,
 				9308D12318B3A88500E7D328 /* AppDelegate.m */,
 				9308D12518B3A88500E7D328 /* Main.storyboard */,
@@ -126,6 +192,8 @@
 		9308D11A18B3A88500E7D328 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9308D18218B3B2CB00E7D328 /* MBProgressHUD.h */,
+				9308D18318B3B2CB00E7D328 /* MBProgressHUD.m */,
 				9308D11B18B3A88500E7D328 /* SMSocialConnector-Info.plist */,
 				9308D11C18B3A88500E7D328 /* InfoPlist.strings */,
 				9308D11F18B3A88500E7D328 /* main.m */,
@@ -248,9 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9308D15318B3A8D000E7D328 /* SM_TWKit.m in Sources */,
+				9308D15018B3A8D000E7D328 /* SM_FBKit.m in Sources */,
 				9308D12A18B3A88500E7D328 /* ViewController.m in Sources */,
 				9308D12418B3A88500E7D328 /* AppDelegate.m in Sources */,
 				9308D12018B3A88500E7D328 /* main.m in Sources */,
+				9308D15218B3A8D000E7D328 /* SM_LocationKit.m in Sources */,
+				9308D18418B3B2CB00E7D328 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +449,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/karthikeyaudupa/Code/Self/SMSocialConnector,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMSocialConnector/SMSocialConnector-Prefix.pch";
 				INFOPLIST_FILE = "SMSocialConnector/SMSocialConnector-Info.plist";
@@ -390,6 +466,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/karthikeyaudupa/Code/Self/SMSocialConnector,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMSocialConnector/SMSocialConnector-Prefix.pch";
 				INFOPLIST_FILE = "SMSocialConnector/SMSocialConnector-Info.plist";
