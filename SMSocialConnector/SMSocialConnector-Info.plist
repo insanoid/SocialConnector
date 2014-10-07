@@ -36,7 +36,7 @@
 	<key>FacebookAppID</key>
 	<string>159843380756204</string>
 	<key>FacebookDisplayName</key>
-	<string>SeMeAntoja</string>
+	<string>SampleApp</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
