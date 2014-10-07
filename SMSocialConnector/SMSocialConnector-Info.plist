@@ -34,9 +34,9 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>FACEBOOK_APP_ID_HERE</string>
+	<string>159843380756204</string>
 	<key>FacebookDisplayName</key>
-	<string>TESTAPP_DISPLAY_NAME</string>
+	<string>SeMeAntoja</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
@@ -51,5 +51,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location information to use in the application.</string>
 </dict>
 </plist>

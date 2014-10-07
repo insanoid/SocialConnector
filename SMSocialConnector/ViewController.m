@@ -56,7 +56,7 @@
             [[SM_FBKit sharedInstance] postToWall:params withCompletion:^(NSError *error_post) {
                 if(error_post){
                     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
-                                                                    message:@"An error occured while posting to facebook."
+                                                                    message:[NSString stringWithFormat:@"An error occured while posting to facebook.-%@",error_post]
                                                                    delegate:nil
                                                           cancelButtonTitle:@"OK"
                                                           otherButtonTitles:nil];
